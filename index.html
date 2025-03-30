@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library | Practice</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body> 
+    <header>
+        <a href="/index.html" class="Main-logo">
+            <img src="/src/Assets/images/Main-Logo.png" alt="Main-logo" title="Main-logo" >
+        </a>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="Menu-btn header-link">
+                <img src="/src/Assets/icons/menu.png" alt="Menu Icon" title="Menu">
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="/index.html">Home</a>
+              <a href="/src/pages/about.html">About</a>
+              <a href="/src/pages/inbox.html">Inbox</a>
+              <a href="/src/pages/profile.html">Profile</a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li class="active-page">
+                    <a href="/index.html" class="header-link">
+                        <img src="/src/Assets/icons/home.png" alt="Home Icon" title="Home">
+                        <span><p>Home</p></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/src/pages/about.html" class="header-link">
+                        <img src="/src/Assets/icons/information.png" alt="About Icon" title="About">
+                        <span><p>About</p></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/src/pages/inbox.html" class="header-link">
+                        <img src="/src/Assets/icons/message.png" alt="Inbox Icon" title="Inbox">
+                        <span><p>Inbox</p></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/src/pages/profile.html" class="header-link">
+                        <img src="/src/Assets/icons/user.png" alt="Profile Icon" title="Profile">
+                        <span><p>Profile</p></span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to the world of Pure leather Shoes</h1>
+            <p>We are a team of passionate people who are dedicated to providing the best quality shoes to our customers.</p>
+            <a href="/src/pages/shop.html" id="Main-btn">Enter the world of Shoes</a>
+        </div>
+        <div class="hero-banner">
+            <img src="/src/Assets/images/HeroBanner.png" alt="Hero Banner" title="Hero Banner">
+        </div>
+    </section>
+    <section class="bento-section">
+        <div class="bento">
+            <div class="Bento01">
+                <div class="b1content">
+                    <div class="b1c-box">
+                        <div class="b1cb-discription">
+                            <div class="b1cbd-upper">
+                                <div class="b1cbdu-text">
+                                    <h3>4500 PKR</h3>
+                                    <p>Peshawari-Chapal</p>
+                                </div>
+                                <div class="b1cbdu-rating">
+                                    <img src="/src/Assets/icons/star.png" alt="rating">
+                                    <p>4.9</p>
+                                </div>
+                            </div>
+                            <div class="b1cbd-lower">
+                                <img src="/src/Assets/icons/heart.png" alt="Like" title="Add to Cart">
+                                <img src="/src/Assets/icons/Cart.png" alt="Add to cart" title="Add to Cart">
+                            </div>
+                        </div>
+                        <img src="/src/Assets/images/Product (5).png" class="b1cb-img" alt="Product">
+                    </div>
+                    <div class="b1c-slide">
+                        <p>Add to Cart</p>
+                        <img src="/src/Assets/icons/arrow-right.png" class="b1cs-arrow" alt="add to cart">
+                    </div>
+                </div>
+            </div>
+            <div class="Bento02">
+                <div class="b2-upper">
+                    <div class="b2u-content">
+                        <div class="b2uc-text">
+                            <h3>New Arrival</h3>
+                            <p>New Luxury Men's Leather Slippers Comfortable & Breathable</p>
+                        </div>
+                        <div class="b2uc-rating">
+                            <img src="/src/Assets/icons/star.png" alt="rating">
+                            <p>4.9</p>
+                        </div>
+                    </div>
+                    <img class="b2u-bg" src="/src/Assets/images/Product (3).png" alt="New-Arrival" title="New Arrival">
+                </div>
+                <div class="b2-lower">
+                    <div class="b2l-text">
+                        <h3>Elegance <br>
+                        Meets Simplicity</h3>
+                        <p>Gives the look of luxury and simplicity.</p>
+                    </div>
+                    <img src="/src/Assets/images/Product (2).png" alt="Simplicity" title="Simplicity" class="b2l-img">
+                </div>
+            </div>
+            <div class="Bento03">
+                <div class="b3-upper">
+                    <div class="b3u-slider">
+                        <p>See All Sandals</p>
+                        <img src="/src/Assets/icons/arrow-right.png" alt="Show all" title="Show All">
+                    </div>
+                </div>
+                <div class="b3-lower">
+                    <div class="b3l-text">
+                        <h3>If you have any Questions, feel free to reach out to us.</h3>
+                        <p>We will gladly help you out.</p>
+                    </div>
+                    <div class="b3l-contact">
+                        <div class="b3lc-slider">
+                            <p>Let's Talk</p>
+                            <img src="/src/Assets/icons/arrow-right.png" alt="Show all" title="Show All">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="featured-products">
+        <h2>Our Product Categories</h2>
+        <a href="#" class="category-link" data-category="Category01">All</a>
+        <a href="#" class="category-link" data-category="Category01">Sandals</a>
+        <a href="#" class="category-link" data-category="Category01">Slippers</a>
+        <a href="#" class="category-link" data-category="Category01">Sneakers</a>
+        <a href="#" class="category-link" data-category="Category01">Loafers</a>
+        <a href="#" class="category-link" data-category="Category01">Joggers</a>
+        <a href="#" class="category-link" data-category="Category01">Trainers</a>
+        <a href="#" class="category-link" data-category="Category01">Vellies Shoes</a>
+        <a href="#" class="category-link" data-category="Category01">Boat Shoes</a>
+        <a href="#" class="category-link" data-category="Category01">Boots</a>
+    </section>
+    <section class="featured-products-02">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/src/Assets/images/Product (7).png" alt="Slipper No. 1">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-name">Slipper No. 1</div>
+                        <div class="product-pricing">
+                            <span class="original-price">8,000 PKR</span>
+                            <span class="current-price">4,500 PKR</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="show-product-btn">
+                    <p>Show Product</p> 
+                    <span class="arrow"><img src="/src/Assets/icons/arrow-right.png" alt="show"></span>
+                </a>
+            </div>
+            <div class="product">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/src/Assets/images/Product (7).png" alt="Slipper No. 1">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-name">Slipper No. 1</div>
+                        <div class="product-pricing">
+                            <span class="original-price">8,000 PKR</span>
+                            <span class="current-price">4,500 PKR</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="show-product-btn">
+                    <p>Show Product</p> 
+                    <span class="arrow"><img src="/src/Assets/icons/arrow-right.png" alt="show"></span>
+                </a>
+            </div>
+            <div class="product">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/src/Assets/images/Product (7).png" alt="Slipper No. 1">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-name">Slipper No. 1</div>
+                        <div class="product-pricing">
+                            <span class="original-price">8,000 PKR</span>
+                            <span class="current-price">4,500 PKR</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="show-product-btn">
+                    <p>Show Product</p> 
+                    <span class="arrow"><img src="/src/Assets/icons/arrow-right.png" alt="show"></span>
+                </a>
+            </div>
+        </div>
+        <div class="product-grid">
+            <div class="product">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/src/Assets/images/Product (7).png" alt="Slipper No. 1">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-name">Slipper No. 1</div>
+                        <div class="product-pricing">
+                            <span class="original-price">8,000 PKR</span>
+                            <span class="current-price">4,500 PKR</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="show-product-btn">
+                    <p>Show Product</p> 
+                    <span class="arrow"><img src="/src/Assets/icons/arrow-right.png" alt="show"></span>
+                </a>
+            </div>
+            <div class="product">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/src/Assets/images/Product (7).png" alt="Slipper No. 1">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-name">Slipper No. 1</div>
+                        <div class="product-pricing">
+                            <span class="original-price">8,000 PKR</span>
+                            <span class="current-price">4,500 PKR</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="show-product-btn">
+                    <p>Show Product</p> 
+                    <span class="arrow"><img src="/src/Assets/icons/arrow-right.png" alt="show"></span>
+                </a>
+            </div>
+            <div class="product">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="/src/Assets/images/Product (7).png" alt="Slipper No. 1">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-name">Slipper No. 1</div>
+                        <div class="product-pricing">
+                            <span class="original-price">8,000 PKR</span>
+                            <span class="current-price">4,500 PKR</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="show-product-btn">
+                    <p>Show Product</p> 
+                    <span class="arrow"><img src="/src/Assets/icons/arrow-right.png" alt="show"></span>
+                </a>
+            </div>
+        </div>
+        <a href="#"id="Main-btn">See All Products</a>
+    </section>
+    <section class="advertise">
+        <img src="/src/Assets/images/Lower-Banner.png" alt="Advertising Product">
+    </section>
+    <section class="random-product">
+        <div class="rp-left">
+            <img src="src/Assets/images/RP-img.png" alt="">
+        </div>
+        <div class="rp-right">
+            <h1 class="product-title"><span>SAKHAF</span><br> Men's Leather Comfortable Sandals/Peshawari Chappal</h1>
+            
+            <div class="price-container">
+              <span class="original-price">8,000 PKR</span>
+              <span class="sale-price">4,500 PKR</span>
+              <span class="sale-tag">SALE</span>
+            </div>
+            
+            <div class="divider"></div>
+            
+            <div class="colors-section">
+              <h2 class="section-title">Colors</h2>
+              <div class="colors-container">
+                <a href="#" class="color-option black selected"></a>
+                <a href="#" class="color-option brown"></a>
+                <a href="#" class="color-option tan"></a>
+              </div>
+            </div>
+            
+            <div class="sizes-section">
+              <h2 class="section-title">Sizes</h2>
+              <div class="sizes-container">
+                <a href="#" class="size-option">6 / 39</a>
+                <a href="#" class="size-option">7 / 40</a>
+                <a href="#" class="size-option">8 / 41</a>
+                <a href="#" class="size-option">9 / 42</a>
+                <a href="#" class="size-option selected">10 / 43</a>
+                <a href="#" class="size-option">11 / 44</a>
+              </div>
+            </div>
+            
+            <div class="quantity-section">
+              <h2 class="section-title">Quantity</h2>
+              <div class="quantity-container">
+                <div class="quantity-controls">
+                  <a href="#" class="quantity-btn decrease">-</a>
+                  <span class="quantity-display">1</span>
+                  <a href="#" class="quantity-btn increase">+</a>
+                </div>
+              </div>
+            </div>
+            
+            <a href="#" class="cart-btn">Add to Cart</a>
+            <a href="#" class="buy-btn">Buy it Now</a>
+            
+            <a href="#" class="details-link">
+              <span>More Details</span>
+              <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+    </section>
+    <section class="why-us">
+        <h2>Why Us</h2>
+        <img src="src/Assets/images/Why-US.png" alt="why us">
+    </section>
+    <section class="contact">
+        <div class="contact-container">
+            <h1 class="brand-name">Sakhaf</h1>
+            <h2 class="tagline">Top-Class Shoes</h2>
+            <p class="contact-text">For Any Question, Feel free to Contact Us.</p>
+            <a href="#" class="contact-btn">Let's talk</a>
+          </div>
+    </section>
+    <section class="footer">
+        <div class="Upper-Footer">
+          <div class="Footer-Part-01">
+            <div class="Name-FP01">
+              <a href="/index.html"><h3>SAKHAF</h3></a>
+            </div>
+            <div class="Logo-Mark-FP01">
+              <a href="/index.html"
+                ><img
+                  src="src/Assets/images/Main-Logo.png"
+                  title="Logo-Mark"
+                  alt="Logo-Mark"
+              /></a>
+            </div>
+            <div class="Pages-FP01">
+              <a href="/index.html">Home   /</a>
+              <a href="/pages/about.html">About   /</a>
+              <a href="/pages/inobx.html">Inbox   /</a>
+              <a href="/pages/profile.html">Profile</a>
+            </div>
+          </div>
+          <div class="Footer-Part-02">
+            <div class="Contact-FP02">
+              <h4>CONTACT US</h4>
+              <p><a href="tel:#">0011223344556</a></p>
+            </div>
+            <div class="Email-FP02">
+              <h4>EMAIL</h4>
+              <p>
+                <a href="mailto:#"
+                  >name@company.com</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="Footer-Part-04">
+            <div class="GotoTop-FP04">
+              <a href="#default"
+                ><img src="/Assets/Icons/Ellipse-Arrow.png" alt=""
+              /></a>
+            </div>
+            <div class="Copyright-FP04">
+              <h4>© 2025 — Copyright</h4>
+            </div>
+          </div>
+        </div>
+  
+        <div class="Lower-Footer">
+          <a href="/pages/Terms-of-Use.html">Terms of Use</a>
+          <a href="/pages/Cookie-Preferences.html">Cookie Preferences</a>
+          <a href="/pages/Privacy-Policy.html">Privacy Policy</a>
+        </div>
+    </section>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
