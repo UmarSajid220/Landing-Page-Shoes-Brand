@@ -8,6 +8,12 @@ https://github.com/maryamaljanabi/bestbags-nodejs-ecommerce
 <p>A ecommerce store landing page built in html, css and js. Developed with the responsiveness in the mind, so that it can run in every screen.</p>
 
 <h3>Store Design Preview</h3>
+<h4>Video Preview</h4>
+
+https://github.com/user-attachments/assets/04277481-c8c0-4402-8775-fd1f602e4112
+
+
+<h4>Design / Prototype</h4>
 <img src="/src/Assets/images/index.html.jpg" alt="Preview" title="Preview">
 
 <h3>Requirements</h3>
